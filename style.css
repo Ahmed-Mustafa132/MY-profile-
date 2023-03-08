@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #fff;
+    position: fixed;
+    width: 100vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+}
+nav p , nav ul{
+    margin: 0 30px;
+} 
+a {
+    text-decoration: none;
+    color: black ;
+}
+ul li {
+    text-decoration: none ;
+    list-style-type: none;
+    color: black ;
+    float: left;
+    margin: 20px ;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+header img {
+    width: 40vw;
+    border-bottom: #000 10px solid;
+}
+.header-side h1 {
+    font-size: 4em;
+}
+header p {
+    font-size:2em;
+}
+#abute{
+    margin: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 3em;
+    height: 50vh;
+}
+#skils h1 {
+    margin-bottom: 10vh;
+    text-align: center;
+    font-size: 3em;
+}
+#mySkils{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 3;
+    flex-shrink: 3;
+}
+.skill-html {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 50%;
+    padding: 50px;
+    border-color:  rgb(0, 152, 240) ;
+    font-size: 2em;
+    margin: 0px 50px;
+}
+.skill-css {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 50%;
+    padding: 50px;
+    border-color: rgb(0, 152, 240) ;
+    font-size: 2em;
+    margin: 0px 50px;}
+.skill-js{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 50%;
+    padding: 50px;
+    border-color: #fff #fff #fff rgb(0, 152, 240) ;
+    font-size: 2em;
+    margin: 0px 50px;
+}
+.skill-ps{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 50%;
+    padding: 50px;
+    border-color: #fff #fff #fff rgb(0, 152, 240) ;
+    font-size: 2em;
+    margin: 0px 50px;
+}
+#projctes h1{
+    text-align: center;
+    font-size: 3em;
+}
+#MainProjectes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+#projctes{
+    margin: 50px 0;
+}
+.project {
+    margin: 30px 0;
+}
+.project img {
+    width: 28vw;
+}
+.project p{
+    text-align: center;
+    font-size: 2em;
+}

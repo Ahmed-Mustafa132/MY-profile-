@@ -1,0 +1,305 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Cairo&family=IBM+Plex+Sans+Arabic:wght@300&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Amiri', serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+
+  
+.sidenav{
+    visibility: hidden;
+    height: 0px;
+}
+nav button {
+    visibility: hidden;
+    height: 0px;
+
+}
+nav span {
+    visibility: hidden;
+    height: 0px;
+
+}
+nav{
+    width: 100%;
+    background-color: #fff;
+    position: fixed ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav img{
+    margin-left: 20px;
+    width: 100px;
+}
+ul li {
+    float: right;
+    margin: 10px;
+    padding: 10px ;
+}
+ul a :hover {
+    padding: 10;
+    background: rgb(103, 169, 164);
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.home-header{
+    padding-top:100px;
+    color: #fff;
+    background-image: url("img/headers-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+H1{
+    font-size: 90px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.home-header div {
+    background-color: rgba(0, 0, 0,.15);
+    font-size: 40px;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+}
+.about-us{
+    min-height: 100vh;
+    background-image: url(img/about-backaground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-us .all-text {
+    background-color:rgba(255, 255, 255, 0.5) ;
+    margin :50px ;
+    width: 40vw;
+    padding: 50px;
+
+}
+.all-text div {
+    margin: 50px;
+}
+.head{
+    text-align: center;
+    font-size: 2em;
+}
+.projects{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.project img{
+    
+    width: 25vw;
+    height: 30vw;
+
+}
+.do{
+    height: 5vw;
+  background-color: rgb(103, 169, 164);  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+}
+.do button {
+    border-radius: 10%;
+    background-color: #fff;
+    border: 0 ;
+    padding: 7px 16px;
+    font-size: 1.2em;
+}
+.Our-services{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.services{
+    width: 20%;
+    text-align: center;
+}
+.services img {
+    width: 100px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(103, 169, 164);
+    color: #fff;
+}
+footer img {
+width: 50px;
+}
+footer a {
+  color: #fff;
+}
+.img-bild img{
+  height: 100vh;
+  width: 100vw;
+
+}
+
+}
+@media screen and (max-width: 800px){
+.btn{
+    margin-left: 50px;
+    float: LEFT;
+}
+.btn div{
+    width: 50px;
+    height: 10px;
+    background-color: black;
+    margin: 5px;
+}
+nav {
+    width: 100vw;
+    background-color: #fff;
+    position: fixed;
+    height: 11vh;
+}
+nav img {
+    margin-right: 50px;
+    width: 100px;
+    float: right;
+}
+ul {
+    width: 0;
+  visibility: hidden;
+}
+/* The side navigation menu */
+.sidenav {
+    text-align: center;
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  header{
+    padding-top: 15vw;
+    height: 100vh;
+    background-image: url(img/headers-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 2em;
+    background-color: rgba(255, 255, 255,0.5);
+    text-align:center ;
+  }
+  header div{
+    text-align: center;
+    margin: 10px;
+    background-color: rgba(255, 255, 255,0.5);
+  }
+  .about-us {
+    text-align: center;
+    margin: 10px;
+  }
+  .about-us div {
+    margin-top: 20px;
+  }
+  .head {
+    font-size: 2em;
+  }
+  .projects{
+    text-align: center;
+    margin: 0 10px;
+  }
+  .projects img {
+    margin: 0;
+    width: 80vw;
+  }
+  .do{
+    background-color: rgb(103, 169, 164);
+    padding: 10px;
+    text-align: center;
+  }
+  .do span {
+    width: 100vw;
+  }
+  .do button {
+    border-radius: 10%;
+    background-color: #fff;
+    border: 0 ;
+    padding: 7px 16px;
+  }
+  .Our-services{
+    text-align: center;
+  }
+  .Our-services img{
+    width: 50vw;
+  }
+  footer {
+    text-align: center;
+    background-color: rgb(103, 169, 164);
+  }
+  footer div {
+    margin: 10px;
+  }
+  footer img{
+    width: 55vw;
+  }
+
+  .img-bild img{
+    height: 100vh;
+    width: 100vw;
+  
+  }
+}
+
