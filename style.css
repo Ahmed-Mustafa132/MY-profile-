@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+@media (min-width:880px ) {
 nav {
     background-color: #fff;
     position: fixed;
@@ -19,6 +20,7 @@ a {
     color: black ;
 }
 ul li {
+    display: block;
     text-decoration: none ;
     list-style-type: none;
     color: black ;
@@ -140,4 +142,145 @@ header p {
 .project p{
     text-align: center;
     font-size: 2em;
+}
+}
+@media (max-width:880px) {
+    body {
+        text-align: center;
+    }
+    #btn {
+        position: fixed;
+        background-color: #fff;
+        width: 100vw;
+        padding-left: 30px;
+    }
+    #btn span {
+        display: block;
+        background-color: #000;
+        width: 25px;
+        height: 5px;
+        margin: 5px 0;
+    }
+    nav {
+        background-color: #111;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        visibility: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+    nav p {
+        margin: 12vh;
+    }
+    nav ul li {
+        list-style-type: none;
+        margin: 12vh;
+    }
+    nav svg {
+        margin: auto;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    header img {
+        height: 50vh;
+        margin-bottom: 10vh ;
+        border-bottom: #000 solid 10px;
+    }
+    .header-side {
+        height: 50vh ;
+    }
+    #abute{
+        margin-bottom: 50px ;
+        text-align: center;
+    }
+    .skill-html {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px solid black;
+        border-radius: 50%;
+        padding: 50px;
+        border-color:  rgb(0, 152, 240) ;
+        font-size: 2em;
+        margin: auto ;
+    }
+    .skill-css {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px solid black;
+        border-radius: 50%;
+        padding: 50px;
+        border-color: rgb(0, 152, 240) ;
+        font-size: 2em;
+        margin: auto ;
+    }
+    .skill-js{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px solid black;
+        border-radius: 50%;
+        padding: 50px;
+        border-color: #fff #fff #fff rgb(0, 152, 240) ;
+        font-size: 2em;
+        margin: auto ;
+    }
+    .skill-ps{
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 10px solid black;
+        border-radius: 50%;
+        padding: 50px;
+        border-color: #fff #fff #fff rgb(0, 152, 240) ;
+        font-size: 2em;
+        margin: auto ;
+    }
+    #projctes h1{
+        margin-bottom: 50px;
+    }
+    .project{
+        margin-top: 50px;
+        width: 80vw;
+        margin: auto;
+
+    }
+    .project img{
+        width: 80vw;
+        margin: auto;
+    }
+    .project p {
+        text-align: center;
+        font-size: 2em;
+
+    }
+    #MainProjectes a {
+        text-decoration: none ;
+        list-style-type: none;
+        margin-top: 50px;
+    }
+
 }
